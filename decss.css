@@ -1,0 +1,39 @@
+@charset "utf-8";
+.borde{
+	border: black 1px solid;  /* linea negra*/ 
+}
+.borde2{
+	border: black 2px dotted;/* linea punteada*/ 
+}
+.font{
+	font-style:italic;/* letra estilo cursiva*/ 
+}
+.fontover{
+	font-family: 'Overpass', sans-serif; /* letra font Overpass*/ 
+}
+.marco{
+	width: 250px;
+	height: 100px;
+	border: 1px solid black;
+	text-align: justify;
+}
+#boton {
+	padding: 0;   /* A partir de aqui, diseño del menu*/ 
+}
+#boton li {
+	display: inline;
+}
+#boton li a {
+	font-family: Arial;
+	font-size: 11px;
+	text-decoration: none;
+	float: left;
+	padding: 10px;
+	background-color: darkkhaki;
+	color:black;
+}
+#boton li a:hover {
+	background-color: darkgray;
+	margin-top: -2;
+	padding-bottom: 12px;
+}
